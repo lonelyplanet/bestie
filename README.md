@@ -22,11 +22,11 @@ Or install it yourself as:
 
 Rake tasks are available after including the gem:
 
-- brakeman
-- reek
-- rubocop
-- spp:quality => [brakeman, reek, rubocop]
-- spp:ci => [spec, quality, cucumber]
+- [brakeman](https://github.com/presidentbeef/brakeman)
+- [reek](https://github.com/troessner/reek)
+- [rubocop](https://github.com/bbatsov/rubocop)
+- `spp:quality` => `[brakeman, reek, rubocop]`
+- `spp:ci` => `[spec, spp:quality, cucumber]`
 
 ## Contributing
 
