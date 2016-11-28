@@ -20,6 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
+In applicaiton's `Rakefile`, add
+
+```
+load 'tasks/spp.rake'
+```
+
 Rake tasks are available after including the gem:
 
 - [brakeman](https://github.com/presidentbeef/brakeman)
