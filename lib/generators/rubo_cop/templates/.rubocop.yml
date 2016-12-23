@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - 'Gemfile'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'doc/**/*'
+    - 'log/**/*'
+    - 'public/**/*'
+    - 'script/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+
+Documentation:
+  Enabled: false
