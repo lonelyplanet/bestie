@@ -34,6 +34,20 @@ Rake tasks are available after including the gem:
 - `spp:quality` => `[brakeman, reek, rubocop]`
 - `spp:ci` => `[spec, spp:quality, cucumber]`
 
+## Configure individual quality check
+
+### RuboCop
+
+```
+bundle exec rails g rubo_cop:config
+```
+
+### SimpleCov
+
+```
+bundle exec rails g simple_cov:config
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/lonelyplanet/spp-ci.
