@@ -1,4 +1,4 @@
-require "spp/ci/version"
+require 'spp/ci/version'
 
 module Spp
   module Ci

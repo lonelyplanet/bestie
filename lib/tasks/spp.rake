@@ -3,13 +3,13 @@ load 'tasks/reek.rake'
 load 'tasks/brakeman.rake'
 
 namespace :spp do
-  task :quality => [
+  task quality: [
     :rubocop,
     :reek,
     'brakeman:run'
   ]
 
-  task :ci => [
+  task ci: [
     :spec,
     :quality,
     :cucumber
