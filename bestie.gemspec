@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'spp/ci/version'
+require 'bestie/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'spp-ci'
-  spec.version       = Spp::Ci::VERSION
+  spec.name          = 'bestie'
+  spec.version       = Bestie::VERSION
   spec.authors       = ['SPP Product Team']
   spec.email         = ['atlas2ninjas@lonelyplanet.com.au']
 
-  spec.summary       = %q{SPP Continuous Integration rake tasks for eBook applications}
-  spec.homepage      = 'https://github.com/lonelyplanet/spp-ci'
+  spec.summary       = %q{Utility gem to enforce generic best practice for rails application}
+  spec.homepage      = 'https://github.com/lonelyplanet/bestie'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

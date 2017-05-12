@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in spp-ci.gemspec
+# Specify your gem's dependencies in bestie.gemspec
 gemspec
