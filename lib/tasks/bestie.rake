@@ -4,10 +4,30 @@ load 'tasks/brakeman.rake'
 load 'tasks/fasterer.rake'
 load 'tasks/rubycritic.rake'
 
-task bestie: [
-  :rubocop,
-  :reek,
-  :fasterer,
-  'brakeman:run',
-  'rubycritic'
-]
+namespace :bestie do
+  task style: [
+    :rubocop,
+    :rubycritic
+  ]
+
+  task smell: [
+    :reek
+  ]
+
+  task security: [
+    :brakeman
+  ]
+
+  task performance: [
+    :fasterer
+  ]
+
+  task all: [
+    :style,
+    :smell,
+    :security,
+    :performance
+  ]
+end
+
+task :bestie => ['bestie:all']

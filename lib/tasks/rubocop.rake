@@ -1,3 +1,5 @@
-require 'rubocop/rake_task'
+task :rubocop do
+  require 'rubocop/rake_task'
 
-RuboCop::RakeTask.new
+  RuboCop::RakeTask.new
+end
