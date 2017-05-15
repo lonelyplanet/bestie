@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'reek'
   spec.add_runtime_dependency 'brakeman'
   spec.add_runtime_dependency 'simplecov'
+  spec.add_runtime_dependency 'fasterer'
 
   spec.add_development_dependency 'rails', '~> 3.2.0'
   spec.add_development_dependency 'bundler', '~> 1.13'
