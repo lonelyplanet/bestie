@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 task :rubycritic do
   require 'rubycritic/rake_task'
 

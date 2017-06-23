@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'fasterer/file_traverser'
 
 task :fasterer do

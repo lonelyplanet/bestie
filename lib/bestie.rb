@@ -1,5 +1,9 @@
+# frozen_string_literal: true
+
 require 'bestie/version'
 
 module Bestie
-  # Your code goes here...
+  def self.root
+    File.dirname __dir__
+  end
 end
