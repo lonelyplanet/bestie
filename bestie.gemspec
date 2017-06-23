@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'simplecov'
   spec.add_runtime_dependency 'fasterer'
   spec.add_runtime_dependency 'debride'
+  spec.add_runtime_dependency 'fray'
   spec.add_runtime_dependency 'rubycritic'
 
   spec.add_development_dependency 'rails', '~> 3.2.0'
