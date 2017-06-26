@@ -3,5 +3,6 @@
 task :flay do
   require 'flay'
 
+  ARGV.clear
   Flay.run.report
 end
