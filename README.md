@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/lonelyplanet/bestie.svg?branch=master)](https://travis-ci.org/lonelyplanet/bestie)
-
 # Bestie
+
+[![Build Status](https://travis-ci.org/lonelyplanet/bestie.svg?branch=master)](https://travis-ci.org/lonelyplanet/bestie)
+[![Gem Version](https://badge.fury.io/rb/bestie.svg)](https://badge.fury.io/rb/bestie)
 
 Utility gem to enforce generic best practice for rails application
 
